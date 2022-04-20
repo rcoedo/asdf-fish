@@ -1,3 +1,3 @@
-if test -f ~/.asdf/asdf.fish
-  source ~/.asdf/asdf.fish
+if test -f (brew --prefix asdf)/libexec/asdf.fish
+    source (brew --prefix asdf)/libexec/asdf.fish
 end
